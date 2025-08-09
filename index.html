@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sriram Divilash | Frontend Developer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+    #typing-text {
+  display: inline-block;
+  width: 350px; /* or whatever fits your longest phrase */
+  min-height: 1.5em;
+  text-align: center;
+  vertical-align: middle;
+  transition: color 0.5s, text-shadow 0.5s;
+  font-weight: 600;
+  letter-spacing: 1px;
+  user-select: none;
+  white-space: nowrap; /* Prevents wrapping */
+  overflow: hidden;    /* Hides overflow */
+}
+
+.typing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 2em;
+}
+  </style>
+</head>
+<body>
+
+<!-- Dark Mode Toggle -->
+<input type="checkbox" id="dark-toggle" hidden>
+<label for="dark-toggle" class="dark-toggle" title="Toggle Dark Mode">🌙</label>
+
+<nav class="navbar">
+  <div class="container nav-container">
+    <h2 class="logo">Sriram</h2>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#technical-skills">Technical Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience & Education</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#testimonials">Recommendations</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Header -->
+<header class="hero">
+  <div class="container">
+    <h1>Hello, I'm <span>Sriram Divilash</span></h1>
+    <p class="typing-container">
+      <span id="typing-text">Frontend Developer | UI/UX Enthusiast | Continuous Learner</span>
+    </p>
+    <a href="#contact" class="btn">Let's Connect</a>
+  </div>
+</header>
+
+<!-- About Section -->
+<section id="about">
+  <div class="container about">
+    <img src="sunny.png" alt="Sriram Divilash">
+    <div>
+      <h2>About Me</h2>
+      <p>I am a frontend developer with a strong interest in UI/UX design. I enjoy building user-friendly, visually appealing interfaces and am constantly enhancing my skills through practical projects and modern design principles.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="technical-skills">
+  <div class="container">
+    <h2>Technical Skills</h2>
+    <div class="skill">
+      <div class="skill-item">
+        <i class="fab fa-html5" style="color:#e44d26"></i>
+        <p>HTML</p>
+        <div class="bar"><div class="progress" style="width: 90%;"></div></div>
+      </div>
+      <div class="skill-item">
+        <i class="fab fa-css3-alt" style="color:#1572b6"></i>
+        <p>CSS</p>
+        <div class="bar"><div class="progress" style="width: 85%;"></div></div>
+      </div>
+      <div class="skill-item">
+        <i class="fab fa-js-square" style="color:#f7df1e"></i>
+        <p>JavaScript</p>
+        <div class="bar"><div class="progress" style="width: 75%;"></div></div>
+      </div>
+      <div class="skill-item">
+        <i class="fab fa-react" style="color:#61dafb"></i>
+        <p>React (Basics)</p>
+        <div class="bar"><div class="progress" style="width: 60%;"></div></div>
+      </div>
+      <div class="skill-item">
+        <i class="fab fa-figma" style="color:#a259ff"></i>
+        <p>Figma / UI Design</p>
+        <div class="bar"><div class="progress" style="width: 80%;"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+  <div class="container">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="card">
+        <img src="quiz icon.png" alt="Quiz Maker">
+        <h3>Quiz Maker</h3>
+        <p>Developed an interactive Quiz Maker web application that allows users to create, customize, and take quizzes. Features include question management, scoring, and a responsive UI.</p>
+        <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+      </div>
+      <!-- Sunny Voice Assistant Project Card -->
+      <div class="card">
+        <img src="image.png" alt="Sunny Voice Assistant">
+        <h3>Sunny Voice Assistant</h3>
+        <p>Created a personal voice assistant using Python that can answer questions, open applications, search the web, and perform daily tasks using speech recognition and text-to-speech technologies.</p>
+        <span class="tag">Python</span><span class="tag">SpeechRecognition</span><span class="tag">TTS</span>
+      </div>
+      <div class="card">
+        <img src="eyebrow-icon.png" alt="Eyebrow Scroller for Instagram">
+        <h3>Eyebrow Scroller for Instagram</h3>
+        <p>Developed an innovative Eyebrow Scroller feature for Instagram using Python, CSS, and ADB, enabling users to scroll through stories or posts with eyebrow gestures detected via webcam and face tracking technology.</p>
+        <span class="tag">Python</span><span class="tag">CSS</span><span class="tag">Face Tracking</span>
+      </div>
+      <!-- Add more project cards as needed -->
+    </div>
+  </div>
+</section>
+
+<!-- Experience & Education Section -->
+<section id="experience">
+  <div class="container">
+    <h2>Experience & Education</h2>
+    <ul class="timeline">
+      <li>
+        <h3>Web Development Intern – CodSoft</h3>
+        <p><strong>2025 (Remote)</strong></p>
+        <p>Executed a series of hands-on front-end projects using HTML, Css, React.js, JavaScript, and Git/GitHub to
+ deliver functional, user-friendly applications under strict deadlines in a fast-paced, virtual environment.</p>
+      </li>
+      <li>
+        <h3>Diploma in Engineering – Electronics and Communication Engineering</h3> 
+        <p><strong>2020 – 2023</strong>, Siddharth institute of Engg & Tech</p>
+        <p>CGPA: 7.1 / 10</p>
+        <h3>Bachelor of Engineering (B.E) – Computer Science Engineering</h3>
+        <p><strong>2024 – 2027</strong>, R.M.D Engineering College</p>
+        <p>Present pursuing 3rd Year </p>
+        <p>CGPA: 7.5 / 10</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- Certifications Section -->
+<section id="certifications">
+  <div class="container">
+    <h2>Certifications</h2>
+    <ul>
+      <li class="cert-link" data-img="frontend certificate.jpg">🌟 Frontend – Skyscanner / Forage</li>
+      <li class="cert-link" data-img="cyber skill india.jpg">🌟 Cyber security – Skill India</li>
+      <li class="cert-link" data-img="_certificate_cisco.jpg">🌟 Introduction to Cybersecurity – Cisco Networking Academy</li>
+      <li class="cert-link" data-img="cyber security tata certificate.jpg">🌟 Cyber security analyst – Tata / Forage</li>
+      <li class="cert-link" data-img="certificate reliance.jpg">🌟 Cybersecurity associate – Reliance Foundation/ Skill Academy</li>  
+    </ul>
+  </div>
+</section>
+
+<!-- Resume Section -->
+<section id="resume">
+  <div class="container">
+    <h2>Resume</h2>
+    <p>You can view or download my resume by clicking the button below:</p>
+    <a href="Divilash CV.pdf" class="btn" download target="_blank">Download CV (PDF)</a>
+  </div>
+</section>
+
+
+<!-- Testimonials Section -->
+<section id="testimonials">
+  <div class="container">
+    <h2>Recommendations</h2>
+    <blockquote>
+      “Sriram is a fast learner with a keen eye for UI design. He consistently delivered quality work and was a valuable contributor to our frontend team.” – Former Team Lead
+    </blockquote>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <div class="container">
+    <h2>Contact</h2>
+    <p><strong>Email:</strong> <a href="mailto:sriramdivilash@gmail.com">sriramdivilash@gmail.com</a></p>
+    <p><strong>Phone:</strong> +91-86394-00270</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <p>&copy; 2025 Sriram Divilash. All Rights Reserved.</p>
+    <div class="social">
+      <a href="https://github.com/Divilash" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/sriram-divilash-387105352/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/sriramdivilash_/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</footer>
+
+<!-- Certificate Modal -->
+<div id="cert-modal" class="cert-modal" style="display:none;">
+  <span class="cert-close">&times;</span>
+  <img id="cert-img" src="" alt="Certificate" />
+</div>
+
+<!-- Add your JavaScript file before closing body tag -->
+<script src="javascript.js"></script>
+</body>
+</html>
